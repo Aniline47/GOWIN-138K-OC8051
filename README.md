@@ -4,7 +4,7 @@
 
 
 
-**其他**:Gowin（高云）官方ref_design来自[OC8051_V1.0](https://github.com/GOWIN-FPGA/OC8051_V1.0) 源文件部分使用[8051](https://github.com/freecores/8051)
+**其他**：Gowin（高云）官方ref_design来自[OC8051_V1.0](https://github.com/GOWIN-FPGA/OC8051_V1.0) 源文件部分使用[8051](https://github.com/freecores/8051)
 
 
 **板卡**：
