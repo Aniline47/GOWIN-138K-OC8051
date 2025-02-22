@@ -1,4 +1,0 @@
-".\Objects\STARTUP.obj",
-".\Objects\main.obj" 
-TO ".\Objects\uart_inter" 
-PRINT(".\Listings\uart_inter.m51")
