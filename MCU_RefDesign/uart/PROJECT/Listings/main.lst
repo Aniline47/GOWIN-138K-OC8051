@@ -1,0 +1,97 @@
+C51 COMPILER V9.60.7.0   MAIN                                                              02/21/2025 21:24:39 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE ..\USER\main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listi
+                    -ngs\main.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          ///////////////////////////////////////////////////////////////////////////////////////////////////////
+   2          //// Copyright (C) 2024 Gowin semiconductor Corporation                                            ////
+   3          ////                                                                                               ////
+   4          //// This source file may be used and distributed without restriction provided that this           ////
+   5          //// copyright statement is not removed from the file and that any derivative work contains        ////
+   6          //// the original copyright notice and the associated disclaimer.                                  ////
+   7          ////                                                                                               ////
+   8          //// This source file is free software; you can redistribute it and/or modify it under the terms   ////
+   9          //// of the GNU Lesser General Public License as published by the Free Software                    ////
+  10          //// Foundation; either version 2.1 of the License, or (at your option) any later version.         ////
+  11          ////                                                                                               ////
+  12          //// This source is distributed in the hope that it will be useful, but WITHOUT ANY                ////
+  13          //// WARRANTY; without even the implied warranty of MERCHANTABILITY or                             ////
+  14          //// FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details. ////
+  15          ////                                                                                               ////
+  16          //// You should have received a copy of the GNU Lesser General Public License along with           ////
+  17          //// this source; if not, download it from http://www.opencores.org/lgpl.shtml                     ////
+  18          ///////////////////////////////////////////////////////////////////////////////////////////////////////
+  19          
+  20          #include <reg52.h>
+  21          
+  22          void SendString (unsigned char *str);
+  23          void SendBit (unsigned char UART_data);
+  24          
+  25          void UART_Init (void)
+  26          {
+  27   1        EA = 1; //�������жϣ��粻ʹ���жϣ�����//���Σ�
+  28   1        ES = 0; //����UART���ڵ��ж�
+  29   1        TMOD = 0x20; //��ʱ��T/C1������ʽ2
+  30   1        SCON = 0x50; //���ڹ�����ʽ1���������ڽ��գ�SCON = 0x40 ʱ���
+             -����ڽ��գ�
+  31   1        TH1 = 0xF3; //��ʱ����ֵ��8λ����
+  32   1        TL1 = 0xF3; //��ʱ����ֵ��8λ����
+  33   1        PCON = 0x80; //�����ʱ�Ƶ�����α��䲨����Ϊ2400��
+  34   1        TR1 = 1; //��ʱ������? ??
+  35   1      }
+  36          
+  37          void SendString (unsigned char *str)
+  38          {
+  39   1        while(*str != '\0')
+  40   1        {
+  41   2          SendBit(*str);
+  42   2          str++;
+  43   2        }
+  44   1        *str = 0;
+  45   1      
+  46   1      }
+  47          
+  48          void SendBit (unsigned char UART_data)//���崮�ڷ������ݱ���
+  49          {
+  50   1        SBUF = UART_data; //�����յ����ݷ��ͻ�ȥ
+  51   1        while(TI == 0); //��鷢���жϱ�־λ
+  52   1        TI = 0; //����жϱ�־λΪ0���������㣩
+  53   1      }
+C51 COMPILER V9.60.7.0   MAIN                                                              02/21/2025 21:24:39 PAGE 2   
+
+  54          
+  55          
+  56          void main()
+  57          {
+  58   1        unsigned char *s = "hello world\r\n";
+  59   1        unsigned int i=0;
+  60   1        
+  61   1        UART_Init();
+  62   1      
+  63   1        while(1)
+  64   1        {
+  65   2          i = 50000;
+  66   2          SendString(s);
+  67   2          while(i--);
+  68   2        }
+  69   1      }
+  70          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    121    ----
+   CONSTANT SIZE    =     14    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       8
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
