@@ -22,6 +22,8 @@
 //GW5A-25
 //A
 
+//GW5A-LV138PG484A  需要根据开发板修改引脚约束
+
 IO_LOC "clkin" V22;      //CLK_G
 IO_LOC "rst" K13;        //KEY1
 
