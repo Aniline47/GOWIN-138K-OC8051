@@ -1,0 +1,46 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5AST-138B" pn="GW5AST-LV138PG484AC1/I0">gw5ast138b-011</Device>
+    <FileList>
+        <File path="src/disp.v" type="file.verilog" enable="1"/>
+        <File path="src/generic_dpram.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/gowin_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_acc.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_alu.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_alu_src_sel.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_b_register.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_cache_ram.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_comp.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_cy_select.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_decoder.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_defines.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_divide.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_dptr.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_fpga_top.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_icache.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_indi_addr.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_int.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_memory_interface.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_multiply.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_ports.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_psw.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_ram_256x8_two_bist.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_ram_64x32_dual_bist.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_ram_top.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_sfr.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_sp.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_tc.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_tc2.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_timescale.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_top.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_uart.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051_wb_iinterface.v" type="file.verilog" enable="1"/>
+        <File path="src/oc8051.cst" type="file.cst" enable="1"/>
+        <File path="src/oc8051.sdc" type="file.sdc" enable="0"/>
+        <File path="src/oc8051.rao" type="file.gao" enable="0"/>
+    </FileList>
+</Project>
