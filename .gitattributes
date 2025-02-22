@@ -1,0 +1,9 @@
+*.md linguist-language=Verilog 
+*.yml linguist-language=Verilog 
+*.html linguist-language=Verilog 
+*.js linguist-language=Verilog 
+*.xml linguist-language=Verilog
+*.css linguist-language=Verilog 
+*.sql linguist-language=Verilog
+*.uml linguist-language=Verilog 
+*.cmd linguist-language=Verilog 
