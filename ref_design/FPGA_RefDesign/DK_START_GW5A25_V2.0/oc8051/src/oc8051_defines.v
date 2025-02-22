@@ -87,14 +87,7 @@
 `define INT_RAM_SIZE    8       // internal ram size
 
 // C codes
-//`define OC8051_CODES_FILE "C:/Users/liukai/Desktop/oc8051/src/codes/led.in"
-
-//`define OC8051_CODES_FILE "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/MCU_RefDesign/key/PROJECT/Objects/key.in"
-//`define OC8051_CODES_FILE "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/MCU_RefDesign/led/PROJECT/Objects/led.in"
-//`define OC8051_CODES_FILE "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/MCU_RefDesign/uart/PROJECT/Objects/uart.in"
-`define OC8051_CODES_FILE "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/MCU_RefDesign/uart_inter/PROJECT/Objects/uart_inter.in"
-
-
+`define OC8051_CODES_FILE "C:/Users/liukai/Desktop/oc8051/src/codes/led.in"    //需要进行修改
 
 //
 // oc8051 pherypherals
