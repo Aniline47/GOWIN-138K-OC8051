@@ -28,7 +28,7 @@
 | LED2|p0_out[1]      |  AB10                    | R19             |
 | LED3|p0_out[2]     |  AA11                  | T21                |
 | LED4|p0_out[3]      |  AB11                  | U21                |
-| LED5|p0_out[4]      |  -=                  | =(P16)                |
+| LED5|p0_out[4]      |  =-                  | =(P16)                |
 | KEY2|p1_in[0]      |  K14                  | AA13                |
 | KEY3|p1_in[1]     |  R14                  | AB13                |
 | KEY3|int1       |  P14                  | -   |
