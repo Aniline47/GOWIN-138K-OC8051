@@ -1,0 +1,282 @@
+[
+ {
+  "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/disp.v",
+  "InstLine" : 5,
+  "InstName" : "disp",
+  "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/disp.v",
+  "ModuleLine" : 5,
+  "ModuleName" : "disp"
+ },
+ {
+  "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_cache_ram.v",
+  "InstLine" : 83,
+  "InstName" : "oc8051_cache_ram",
+  "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_cache_ram.v",
+  "ModuleLine" : 83,
+  "ModuleName" : "oc8051_cache_ram"
+ },
+ {
+  "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_fpga_top.v",
+  "InstLine" : 82,
+  "InstName" : "oc8051_fpga_top",
+  "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_fpga_top.v",
+  "ModuleLine" : 82,
+  "ModuleName" : "oc8051_fpga_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_fpga_top.v",
+    "InstLine" : 204,
+    "InstName" : "u_Gowin_PLL",
+    "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/gowin_pll/gowin_pll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL"
+   },
+   {
+    "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_fpga_top.v",
+    "InstLine" : 213,
+    "InstName" : "oc8051_top_1",
+    "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_top.v",
+    "ModuleLine" : 115,
+    "ModuleName" : "oc8051_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_top.v",
+      "InstLine" : 362,
+      "InstName" : "oc8051_decoder1",
+      "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_decoder.v",
+      "ModuleLine" : 90,
+      "ModuleName" : "oc8051_decoder"
+     },
+     {
+      "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_top.v",
+      "InstLine" : 394,
+      "InstName" : "oc8051_alu1",
+      "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_alu.v",
+      "ModuleLine" : 89,
+      "ModuleName" : "oc8051_alu",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_alu.v",
+        "InstLine" : 156,
+        "InstName" : "oc8051_mul1",
+        "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_multiply.v",
+        "ModuleLine" : 65,
+        "ModuleName" : "oc8051_multiply"
+       },
+       {
+        "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_alu.v",
+        "InstLine" : 157,
+        "InstName" : "oc8051_div1",
+        "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_divide.v",
+        "ModuleLine" : 57,
+        "ModuleName" : "oc8051_divide"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_top.v",
+      "InstLine" : 413,
+      "InstName" : "oc8051_ram_top1",
+      "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_ram_top.v",
+      "ModuleLine" : 77,
+      "ModuleName" : "oc8051_ram_top",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_ram_top.v",
+        "InstLine" : 147,
+        "InstName" : "oc8051_idata",
+        "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_ram_256x8_two_bist.v",
+        "ModuleLine" : 82,
+        "ModuleName" : "oc8051_ram_256x8_two_bist",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_ram_256x8_two_bist.v",
+          "InstLine" : 125,
+          "InstName" : "oc8051_ram1",
+          "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/generic_dpram.v",
+          "ModuleLine" : 21,
+          "ModuleName" : "generic_dpram"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_top.v",
+      "InstLine" : 435,
+      "InstName" : "oc8051_alu_src_sel1",
+      "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_alu_src_sel.v",
+      "ModuleLine" : 66,
+      "ModuleName" : "oc8051_alu_src_sel"
+     },
+     {
+      "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_top.v",
+      "InstLine" : 458,
+      "InstName" : "oc8051_comp1",
+      "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_comp.v",
+      "ModuleLine" : 66,
+      "ModuleName" : "oc8051_comp"
+     },
+     {
+      "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_top.v",
+      "InstLine" : 470,
+      "InstName" : "oc8051_rom1",
+      "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_rom.v",
+      "ModuleLine" : 88,
+      "ModuleName" : "oc8051_rom"
+     },
+     {
+      "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_top.v",
+      "InstLine" : 495,
+      "InstName" : "oc8051_cy_select1",
+      "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_cy_select.v",
+      "ModuleLine" : 62,
+      "ModuleName" : "oc8051_cy_select"
+     },
+     {
+      "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_top.v",
+      "InstLine" : 501,
+      "InstName" : "oc8051_indi_addr1",
+      "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_indi_addr.v",
+      "ModuleLine" : 64,
+      "ModuleName" : "oc8051_indi_addr"
+     },
+     {
+      "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_top.v",
+      "InstLine" : 516,
+      "InstName" : "oc8051_memory_interface1",
+      "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_memory_interface.v",
+      "ModuleLine" : 92,
+      "ModuleName" : "oc8051_memory_interface"
+     },
+     {
+      "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_top.v",
+      "InstLine" : 596,
+      "InstName" : "oc8051_sfr1",
+      "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_sfr.v",
+      "ModuleLine" : 98,
+      "ModuleName" : "oc8051_sfr",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_sfr.v",
+        "InstLine" : 311,
+        "InstName" : "oc8051_acc1",
+        "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_acc.v",
+        "ModuleLine" : 77,
+        "ModuleName" : "oc8051_acc"
+       },
+       {
+        "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_sfr.v",
+        "InstLine" : 327,
+        "InstName" : "oc8051_b_register",
+        "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_b_register.v",
+        "ModuleLine" : 65,
+        "ModuleName" : "oc8051_b_register"
+       },
+       {
+        "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_sfr.v",
+        "InstLine" : 339,
+        "InstName" : "oc8051_sp1",
+        "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_sp.v",
+        "ModuleLine" : 66,
+        "ModuleName" : "oc8051_sp"
+       },
+       {
+        "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_sfr.v",
+        "InstLine" : 353,
+        "InstName" : "oc8051_dptr1",
+        "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_dptr.v",
+        "ModuleLine" : 62,
+        "ModuleName" : "oc8051_dptr"
+       },
+       {
+        "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_sfr.v",
+        "InstLine" : 368,
+        "InstName" : "oc8051_psw1",
+        "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_psw.v",
+        "ModuleLine" : 72,
+        "ModuleName" : "oc8051_psw"
+       },
+       {
+        "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_sfr.v",
+        "InstLine" : 386,
+        "InstName" : "oc8051_ports1",
+        "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_ports.v",
+        "ModuleLine" : 69,
+        "ModuleName" : "oc8051_ports"
+       },
+       {
+        "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_sfr.v",
+        "InstLine" : 425,
+        "InstName" : "oc8051_uatr1",
+        "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_uart.v",
+        "ModuleLine" : 73,
+        "ModuleName" : "oc8051_uart"
+       },
+       {
+        "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_sfr.v",
+        "InstLine" : 453,
+        "InstName" : "oc8051_int1",
+        "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_int.v",
+        "ModuleLine" : 75,
+        "ModuleName" : "oc8051_int"
+       },
+       {
+        "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_sfr.v",
+        "InstLine" : 481,
+        "InstName" : "oc8051_tc1",
+        "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_tc.v",
+        "ModuleLine" : 72,
+        "ModuleName" : "oc8051_tc"
+       },
+       {
+        "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_sfr.v",
+        "InstLine" : 510,
+        "InstName" : "oc8051_tc21",
+        "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_tc2.v",
+        "ModuleLine" : 64,
+        "ModuleName" : "oc8051_tc2"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_icache.v",
+  "InstLine" : 79,
+  "InstName" : "oc8051_icache",
+  "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_icache.v",
+  "ModuleLine" : 79,
+  "ModuleName" : "oc8051_icache",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_icache.v",
+    "InstLine" : 196,
+    "InstName" : "oc8051_cache_ram",
+    "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_ram_64x32_dual_bist.v",
+    "ModuleLine" : 82,
+    "ModuleName" : "oc8051_ram_64x32_dual_bist",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_ram_64x32_dual_bist.v",
+      "InstLine" : 131,
+      "InstName" : "oc8051_ram1",
+      "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/generic_dpram.v",
+      "ModuleLine" : 21,
+      "ModuleName" : "generic_dpram"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_wb_iinterface.v",
+  "InstLine" : 70,
+  "InstName" : "oc8051_wb_iinterface",
+  "ModuleFile" : "C:/Users/AAA/Downloads/Gowin_OC8051_V1.0/Gowin_OC8051_V1.0/ref_design/FPGA_RefDesign/DK_START_GW5A25_V2.0/oc8051/src/oc8051_wb_iinterface.v",
+  "ModuleLine" : 70,
+  "ModuleName" : "oc8051_wb_iinterface"
+ }
+]

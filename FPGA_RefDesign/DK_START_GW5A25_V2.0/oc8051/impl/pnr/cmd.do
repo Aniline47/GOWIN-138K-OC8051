@@ -1,0 +1,18 @@
+-d C:\Users\AAA\Downloads\Gowin_OC8051_V1.0\Gowin_OC8051_V1.0\ref_design\FPGA_RefDesign\DK_START_GW5A25_V2.0\oc8051\impl\gwsynthesis\oc8051.vg
+-p GW5AST-138B-PBGA484A-1
+-pn GW5AST-LV138PG484AC1/I0
+-cst C:\Users\AAA\Downloads\Gowin_OC8051_V1.0\Gowin_OC8051_V1.0\ref_design\FPGA_RefDesign\DK_START_GW5A25_V2.0\oc8051\src\oc8051.cst
+-cfg C:\Users\AAA\Downloads\Gowin_OC8051_V1.0\Gowin_OC8051_V1.0\ref_design\FPGA_RefDesign\DK_START_GW5A25_V2.0\oc8051\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-ireg_not_in_iob
+-oreg_not_in_iob
+-ioreg_not_in_iob
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000
+-enable_dsrm 0
