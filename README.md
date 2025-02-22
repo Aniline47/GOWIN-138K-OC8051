@@ -2,7 +2,7 @@
 
 **描述**：使用Gowin（高云）138K第三方开发板移植运行高云官方提供的OC8051代码 
 
-**其他**：Gowin（高云）官方ref_design来自[OC8051_V1.0](https://github.com/GOWIN-FPGA/OC8051_V1.0) 源文件部分使用[8051](https://github.com/freecores/8051)
+**参考**：Gowin（高云）官方ref_design来自[OC8051_V1.0](https://github.com/GOWIN-FPGA/OC8051_V1.0) 源文件部分使用[8051](https://github.com/freecores/8051)
 
 **板卡**：
 
