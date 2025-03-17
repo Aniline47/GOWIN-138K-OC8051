@@ -8,7 +8,7 @@
 
 + GW138_060A：基于Tang Mega 138K / 60K 二次开发的一款FPGA开发板 [GW138_060A](https://bigpig.ongridea.com/h9wtn0)
 
-+ GW138_060B：基于GW138_060A 重新调整的开发板 （正在验证中）
++ GW138_060B：基于GW138_060A 重新调整的开发板 [GW138_060B](https://github.com/Aniline47/GW138_60K/tree/main)
 
 ## 软件版本
 
