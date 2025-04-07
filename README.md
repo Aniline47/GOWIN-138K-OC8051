@@ -1,18 +1,15 @@
 # Gowin-138K-OC8051  
-![FPGA](https://via.placeholder.com/150/007BFF/FFFFFF?text=FPGA)  
-
----
 
 ## 📖 描述  
 **使用Gowin（高云）138K第三方开发板移植运行高云官方提供的OC8051代码**  
 
----
+
 
 ## 🔗 参考  
 - **Gowin（高云）官方ref_design**: [OC8051_V1.0](https://github.com/GOWIN-FPGA/OC8051_V1.0)  
 - **源文件部分**: [8051](https://github.com/freecores/8051)  
 
----
+
 
 ## 🎫 板卡  
 | **型号** | **描述** | **链接** |  
